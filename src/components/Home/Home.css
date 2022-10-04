@@ -1,0 +1,161 @@
+.home-section {
+    background-color: #DDDDDD;
+    padding: 100px 160.09px 106.31px 170px;
+}
+
+.home-container {
+    display: flex;
+    column-gap: 221px;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.banner-heading-text {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    font-style: normal;
+    color: #240D57;
+}
+
+.gradient-text-I {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: right;
+}
+
+.banner-paragraph {
+    color: #4F4F4F;
+    margin-top: 16px;
+    margin-bottom: 52px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.create-event-btn {
+    color: #FFFFFF;
+    width: 320px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 16px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+}
+
+.create-event-btn-II {
+    display: none;
+}
+
+/* responsive for iPad pro */
+@media screen and (max-width: 1024px) {
+
+    .home-section {
+        padding: 40px 60px;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        column-gap: 221px;
+        justify-content: center;
+        text-align: right;
+    }
+
+    .banner-text-content {
+        display: block;
+        margin: 0 auto 55px auto;
+        text-align: center;
+    }
+
+    .banner-heading-text {
+        line-height: 64px;
+    }
+
+    .banner-paragraph {
+        padding: 0px 195px;
+        margin-bottom: 0;
+    }
+
+    .create-event-btn {
+        display: none;
+    }
+
+    .create-event-btn-II {
+        display: block;
+        margin: auto;
+        color: #FFFFFF;
+        width: 320px;
+        height: 55px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 16px;
+        background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+        border-radius: 10px;
+    }
+
+    .banner-img {
+        margin-bottom: 52.73px;
+        width: 311px;
+        height: 548.27px;
+    }
+}
+
+/* responsive for iPad Pro 11 */
+@media screen and (max-width: 960px) {
+
+    .banner-paragraph {
+        padding: 0px 165px;
+    }
+
+}
+
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+
+    .home-section {
+        padding: 16px;
+    }
+
+    .banner-paragraph {
+        padding: 0px 16px;
+    }
+
+    .banner-heading-text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .banner-text-content {
+        margin-bottom: 36px;
+    }
+
+    .banner-paragraph {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0px 42px;
+    }
+
+    .create-event-btn-II {
+        width: 187px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .banner-img {
+        margin-bottom: 36px;
+        width: 165.63px;
+        height: 292px;
+    }
+
+}
