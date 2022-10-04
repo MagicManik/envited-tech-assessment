@@ -1,0 +1,152 @@
+.event {
+    max-width: 1512px;
+    background: #FBFAFF;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.event-page-heading h1 {
+    width: 333px;
+    height: 37px;
+    margin-bottom: 17px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    color: #240D57;
+}
+
+.event-page-heading p {
+    width: 155px;
+    height: 15px;
+    left: 240px;
+    top: 248px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.event-date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-top: 57px;
+    height: 72px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.event-date-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calender-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-right: 20px;
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.calender {
+    width: 26px;
+    height: 28.67px;
+    color: #8456EC;
+}
+
+.arrow-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.arrow {
+    color: #BDBDBD;
+}
+
+
+.event img {
+    width: 500px;
+    height: 500px;
+}
+
+
+/* ============= Media Query ============ */
+/* ====================================== */
+
+/* ==== Mobile Device ==== */
+
+@media only screen and (max-width:576px) {
+
+    .event {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+
+    .event-page-body {
+        width: 327px;
+        margin-left: 20px;
+    }
+
+    .event-page-heading {
+        margin-top: 12px;
+    }
+
+    .event-date-container {
+        width: 349.57px;
+    }
+}
+
+
+/* ==== Tablet Device ==== */
+
+@media only screen and (min-width:576px) and (max-width:960px) {
+
+    .event {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 88px;
+    }
+
+    .event-page-body {
+        width: 594px;
+        margin-left: 0px;
+    }
+
+    .event-page-heading {
+        margin-top: 36px;
+        margin-left: 0;
+    }
+
+    .event-date-container {
+        width: 594px;
+    }
+
+    .event img {
+        width: 593px;
+        height: 593px;
+    }
+}
